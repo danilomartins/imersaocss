@@ -2,10 +2,17 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <!-- A propridade meta name="viewport" é responsável por deixar a página adaptável para qualquer tipo de tela, ou seja, RESPONSIVO-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imersão CSS</title>
     <link rel="stylesheet" href="css\estilos.css">
 </head>
 <body>
+
+    <div>
+        <!--box-model (modelo de caixa) para o CSS todas as TAGs do HTML são como caixas.
+        Basicamente é uma forma de organizar as DIV's -->
+    </div>
     <header>
         <nav class="menu">
             <ul>
@@ -14,9 +21,46 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-        <h1 class="site-title">Imersão CSS</h1>
-        <h2 class="site-subtitle">Front-end</h2>
-    
+        <div>
+            <h1 class="site-title">Imersão CSS</h1>
+            <h2 class="site-subtitle">Front-end</h2>
+        </div>
     </header>
+    <section>
+        <h2>Portfólio</h2>
+        <figure>
+          <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+          <figcaption>eCommerce</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+          <figcaption>Mobile</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+          <figcaption>Web design</figcaption>
+        </figure>
+        <figure>
+          <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
+          <figcaption>Projetos pessoais</figcaption>
+        </figure>
+      </section>
+      <section class="contato">
+        <h2>Contato</h2>
+          <div class="grid icons">
+          <a target="_blank" href="https://github.com/vanessametonini">
+            Github
+          </a>
+          <a target="_blank" href="https://twitter.com/vanessametonini">
+            twitter
+          </a>
+          <a target="_blank" href="https://linkedin.com/in/vanessametonini">
+            linkedin
+          </a>
+          <a href="mailto:vanessa.tonini@caelum.com.br">
+            email
+          </a>
+        </div>
+      </section>
 </body>
 </html>
